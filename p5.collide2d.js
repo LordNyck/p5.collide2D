@@ -86,7 +86,7 @@ if( this.dist(x,y,cx,cy) <= d/2 ){
 return false;
 };
 
-// p5.vector version of collidePointCircle
+// p5.vector version of collidePointCircle:
 p5.prototype.collidePointCircleVector = function(p, c, d){
   return p5.prototype.collidePointCircle(p.x,p.y,c.x,c.y,  d)
 }
